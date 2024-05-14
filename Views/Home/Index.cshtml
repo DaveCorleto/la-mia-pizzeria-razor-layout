@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-    Layout = null;
+    Layout = "_LayoutPersonalizzato";
 
     List<Pizza> pizze = new List<Pizza>();
 
@@ -15,6 +15,14 @@
 
     Pizza moenese= new Pizza("Moenese", "Pomodoro, Mozzarella, puzzone e funghi", "img/pizza-4.jpg", 11.90f);
     pizze.Add(moenese);
+
+    Pizza montanara = new Pizza("Montanara", "Fontina e pancetta", "img/pizza-5.jpg", 9.90f);
+    pizze.Add(montanara);
+
+    Pizza deaKhalì = new Pizza("Dea Khalì", "Polpo, Patate, limone e prezzemolo", "img/pizza-6.jpg", 10.90f);
+    pizze.Add(deaKhalì);
+
+
 }
 
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />

@@ -7,16 +7,16 @@
 </head>
 <body>
     <header>
-        Sono l'header
+        @Html.Partial("_navbar");
     </header>
 
     <main>
         @RenderBody()
     </main>
 
-    <footer>
-        Sono il Footer
-    </footer>
+    <div>
+        @Html.Partial("_footer");
+    </div>
 
 </body>
 </html>

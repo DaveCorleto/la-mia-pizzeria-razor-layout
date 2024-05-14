@@ -18,7 +18,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image:url("../img/locale.jpg");
+    background-size: cover;
 }
 
 h1 {
@@ -38,4 +40,9 @@ h2 {
 }
 .name, .description, .url,.price {
     text-align: center;
+    color: white;
+}
+img {
+    border-radius: 5px;
+    border: 2px solid white;
 }
